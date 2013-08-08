@@ -3,7 +3,7 @@
   <div id="login_container">
 	
 		<div id="login_form">
-		<%= form_for(@result) do |f| %>
+		<%= form_for @result, :html => { :multipart => true } do |f| %>
 
 		  <% if @result.errors.any? %>
 		    <div id="error_explanation">
