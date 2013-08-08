@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<LABPLUS_x0020_DATASET>
+  <xs:schema id="LABPLUS_x0020_DATASET" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="LABPLUS_x0020_DATASET" msdata:IsDataSet="true" msdata:MainDataTable="Pacientes" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pacientes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="numero_factura" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Tipo_Paciente" type="xs:string" minOccurs="0" />
+                <xs:element name="Nombres" type="xs:string" minOccurs="0" />
+                <xs:element name="Apellidos" type="xs:string" minOccurs="0" />
+                <xs:element name="protocolo" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha_creado" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Pruebas_Listas" type="xs:string" minOccurs="0" />
+                <xs:element name="clave_web" type="xs:string" minOccurs="0" />
+                <xs:element name="codigo_web" type="xs:string" minOccurs="0" />
+                <xs:element name="Archivo" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pacientes>
+    <numero_factura>6</numero_factura>
+    <Tipo_Paciente>AMBULATORIO</Tipo_Paciente>
+    <Nombres>PEREZ EGUREN MILCIADES</Nombres>
+    <Apellidos xml:space="preserve"> </Apellidos>
+    <protocolo>1307-4</protocolo>
+    <fecha_creado>2013-07-31T13:54:06.493-04:00</fecha_creado>
+    <Pruebas_Listas>S</Pruebas_Listas>
+    <clave_web>1212</clave_web>
+    <codigo_web>1026104</codigo_web>
+    <Archivo>1307-4.pdf</Archivo>
+  </Pacientes>
+</LABPLUS_x0020_DATASET>
