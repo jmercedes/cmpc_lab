@@ -1,0 +1,31 @@
+
+
+  <div id="login_container">
+	
+		<div id="login_form">
+		<%= form_for(@result) do |f| %>
+
+		  <% if @result.errors.any? %>
+		    <div id="error_explanation">
+		      <h2><%= pluralize(@result.errors.count, "error") %> prohibited this result from being saved:</h2>
+
+		      <ul>
+		      <% @result.errors.full_messages.each do |msg| %>
+		        <li><%= msg %></li>
+		      <% end %>
+		      </ul>
+		    </div>
+		  <% end %>
+
+
+      <h1>Formulario de prueba para publicar resultados<br>Este proceso será automatizado</h1>
+      <hr>
+		  <p>
+		    <%= f.file_field :result_bulk %>
+		  </p>
+		  <p class="actions">
+		    <%= f.submit 'Publicar Resultados', class: 'button blue' %>
+		  </p>
+		<% end %>
+		</div>
+	 </div>

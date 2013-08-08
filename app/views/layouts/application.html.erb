@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="viewport" content="user-scalable=no" />
+  
+  <title>Centro Médico Punta Cana</title>
+
+
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/icons.css" />
+  <link rel="stylesheet" href="css/formalize.css" />
+  <link rel="stylesheet" href="css/checkboxes.css" />
+  <link rel="stylesheet" href="css/sourcerer.css" />
+  <link rel="stylesheet" href="css/jqueryui.css" />
+  <link rel="stylesheet" href="css/tipsy.css" />
+  <link rel="stylesheet" href="css/calendar.css" />
+  <link rel="stylesheet" href="css/tags.css" />
+  <link rel="stylesheet" href="css/selectboxes.css" />
+  <link rel="stylesheet" href="css/960.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" media="all and (orientation:portrait)" href="css/portrait.css" />
+  <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+
+
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "js/jquery.min.js" %>
+  <%= javascript_include_tag "js/jqueryui.min.js" %>
+  <%= javascript_include_tag "js/jquery.cookies.js" %>
+  <%= javascript_include_tag "js/jquery.pjax.js" %>
+  <%= javascript_include_tag "js/formalize.min.js" %>
+  <%= javascript_include_tag "js/jquery.metadata.js" %>
+  <%= javascript_include_tag "js/jquery.validate.js" %>
+  <%= javascript_include_tag "js/jquery.checkboxes.js" %>
+  <%= javascript_include_tag "js/jquery.chosen.js" %>
+  <%= javascript_include_tag "js/jquery.fileinput.js" %>
+  <%= javascript_include_tag "js/jquery.datatables.js" %>
+  <%= javascript_include_tag "js/jquery.sourcerer.js" %>
+  <%= javascript_include_tag "js/jquery.tipsy.js" %>
+  <%= javascript_include_tag "js/jquery.calendar.js" %>
+  <%= javascript_include_tag "js/jquery.inputtags.min.js" %>
+  <%= javascript_include_tag "js/jquery.wymeditor.js" %>
+  <%= javascript_include_tag "js/jquery.livequery.js" %>
+  <%= javascript_include_tag "js/jquery.flot.min.js" %>
+  <%= javascript_include_tag "js/application.js" %>
+
+
+  <%= csrf_meta_tags %>
+</head>
+
+<body id="login">
+
+<%= yield %>
+
+</body>
+</html>
